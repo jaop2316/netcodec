@@ -61,3 +61,11 @@ Thumbs.db
 # Things in the core directory that Drupal 8 commits in the repository.
 !core/**/*.gz
 
+# Development
+/sites/default/settings.php
+/sites/*.dd
+/sites/sites.php
+sites/default/settings*
+
+#IDE plugins
+.idea
