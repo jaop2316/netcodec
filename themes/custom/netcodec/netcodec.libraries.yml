@@ -1,0 +1,19 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+bootstrap-scripts:
+  js:
+    _src/bootstrap/assets/javascripts/bootstrap/affix.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/alert.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/button.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/carousel.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/collapse.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/dropdown.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/modal.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/tooltip.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/popover.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/tab.js: {}
+    _src/bootstrap/assets/javascripts/bootstrap/transition.js: {}

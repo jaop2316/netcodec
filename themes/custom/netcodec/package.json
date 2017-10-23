@@ -1,0 +1,39 @@
+{
+  "name": "NetcodecTheme",
+  "version": "1.0.1",
+  "description": "Netcodec Theme",
+  "author": "Jessica Olivo",
+  "homepage": "jobsitynew.dev",
+  "scripts": {
+    "postinstall": "find node_modules/ -name \"*.info\" -type f -delete"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-beautify": "^1.1.2",
+    "gulp-bower": "0.0.10",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^5.0.1",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-scss-lint": "^0.5.0",
+    "gulp-shell": "^0.4.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "jshint": "^2.0.0",
+    "jshint-stylish": "^2.0.0",
+    "main-bower-files": "^2.9.0",
+    "node-sass-globbing": "^0.0.23",
+    "svgo": "^0.7.2"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.4.0",
+    "gulp-ruby-sass": "^2.0.5",
+    "parallax-js": "git+https://github.com/wagerfield/parallax.git"
+  }
+}

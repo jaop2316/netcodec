@@ -69,3 +69,8 @@ sites/default/settings*
 
 #IDE plugins
 .idea
+
+# Node Modules #
+######################
+node_modules
+themes/custom/jobsity/yarn\.lock
