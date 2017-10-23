@@ -1,0 +1,14 @@
+uuid: 65b59033-68ea-443e-ac3e-09d285adf2f0
+name: Netcodec
+mail: jessikita.ldu@gmal.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
