@@ -1,0 +1,20 @@
+uuid: f1083c5a-d0c2-4736-9e54-78bf993fd088
+langcode: en
+status: true
+dependencies:
+  theme:
+    - netcodec
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: netcodec_local_actions
+theme: netcodec
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

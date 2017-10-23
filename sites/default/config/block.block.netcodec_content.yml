@@ -1,0 +1,22 @@
+uuid: deb41d47-dbc7-4b30-8c14-6fa9dbfb240f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - netcodec
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: netcodec_content
+theme: netcodec
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

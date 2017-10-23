@@ -1,0 +1,22 @@
+uuid: 1cc40a9e-30a7-492c-8522-186f73c000a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - netcodec
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: netcodec_messages
+theme: netcodec
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: d24c9dfc-b245-4343-ac2b-f99d655eb969
+langcode: en
+status: true
+dependencies:
+  theme:
+    - netcodec
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: netcodec_page_title
+theme: netcodec
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

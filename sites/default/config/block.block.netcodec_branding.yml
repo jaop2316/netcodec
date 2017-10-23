@@ -1,0 +1,25 @@
+uuid: ffc754f5-b0d4-43b1-9c5a-506bade5307e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - netcodec
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: netcodec_branding
+theme: netcodec
+region: navigation
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
