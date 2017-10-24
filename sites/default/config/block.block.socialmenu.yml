@@ -1,0 +1,24 @@
+uuid: 9cbb78f0-6d9b-4e94-9cb1-a3268c9be5f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.social-menu
+  module:
+    - system
+  theme:
+    - netcodec
+id: socialmenu
+theme: netcodec
+region: footer
+weight: -7
+provider: null
+plugin: 'system_menu_block:social-menu'
+settings:
+  id: 'system_menu_block:social-menu'
+  label: 'Social Menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }
