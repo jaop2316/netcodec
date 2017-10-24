@@ -22,3 +22,4 @@ regions:
 libraries:
   - 'netcodec/global-styling'
   - 'netcodec/bootstrap-scripts'
+  - 'netcodec/custom-scripts'

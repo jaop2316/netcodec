@@ -17,3 +17,7 @@ bootstrap-scripts:
     _src/bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     _src/bootstrap/assets/javascripts/bootstrap/tab.js: {}
     _src/bootstrap/assets/javascripts/bootstrap/transition.js: {}
+
+custom-scripts:
+  js:
+    js/script.js: {}
