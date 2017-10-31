@@ -15,9 +15,9 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: ''
+  path: 'public://netcodec_small_1.png'
   url: ''
-  use_default: true
+  use_default: false
 fluid_container: 1
 table_responsive: '-1'
 table: ''

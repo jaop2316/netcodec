@@ -1,0 +1,25 @@
+uuid: 11954766-860a-41e5-a743-59eda056a983
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fa53d47a-3c93-44be-b66f-76b6cccc78bb'
+  module:
+    - block_content
+  theme:
+    - netcodec
+id: footerdescription
+theme: netcodec
+region: footer
+weight: -7
+provider: null
+plugin: 'block_content:fa53d47a-3c93-44be-b66f-76b6cccc78bb'
+settings:
+  id: 'block_content:fa53d47a-3c93-44be-b66f-76b6cccc78bb'
+  label: 'Footer Description'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

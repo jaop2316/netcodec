@@ -1,6 +1,6 @@
 uuid: 80ffc5d6-0eab-4945-b95c-36a9d60e532c
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -13,7 +13,7 @@ _core:
 id: netcodec_footer
 theme: netcodec
 region: footer
-weight: -6
+weight: -5
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
