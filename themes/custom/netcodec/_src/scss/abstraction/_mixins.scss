@@ -1,0 +1,49 @@
+/// Breakpoints
+///
+/// Add breakpoints according drupal framework default values
+///
+/// @param {point}
+///
+/// @example sccss - Usage
+/// .class {
+///   @include breakpoint(sm){
+/// }
+@mixin breakpoint($point) {
+  @if ($point == lg) {
+    @media (min-width: $screen-lg-min) {
+      @content
+    }
+  } @else if ($point == md) {
+    @media (min-width: $screen-md-min) {
+      @content
+    }
+  } @else if ($point == sm) {
+    @media (min-width: $screen-sm-min) {
+      @content
+    }
+  } @else {
+    // xs
+    @content
+  }
+}
+
+// Font Size
+//
+// Calculate font size depending of screen size.
+@mixin font-size($font-xs, $font-sm, $font-md, $font-lg) {
+  @include breakpoint(xs) {
+    @include set-font-size($font-xs * 1px);
+  }
+
+  @include breakpoint(sm) {
+    @include set-font-size($font-sm * 1px);
+  }
+
+  @include breakpoint(md) {
+    @include set-font-size($font-md * 1px);
+  }
+
+  @include breakpoint(lg) {
+    @include set-font-size($font-lg * 1px);
+  }
+}

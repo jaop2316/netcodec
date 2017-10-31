@@ -1,0 +1,22 @@
+// Override to default bootstrap classes.
+
+.navbar-default {
+  background-color: $c-solid-white;
+  border-color: transparent;
+  width: 100%;
+
+  @include breakpoint(md) {
+    margin: 0 auto;
+    width: 1170px;
+  }
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px;
+
+  li {
+    display: inline-block;
+  }
+}

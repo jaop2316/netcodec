@@ -1,0 +1,15 @@
+// Styles for header
+
+.navbar-nav {
+  float: left;
+
+  @include breakpoint(md) {
+    float: right;
+  }
+
+  li a {
+    @include font-size(15, 15, 15, 15);
+    color: $c-solid-black !important;
+  }
+
+}

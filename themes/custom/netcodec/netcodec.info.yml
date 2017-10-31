@@ -18,8 +18,10 @@ regions:
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+  hidden: 'Hidden'
 
 libraries:
   - 'netcodec/global-styling'
   - 'netcodec/bootstrap-scripts'
   - 'netcodec/custom-scripts'
+  - 'netcodec/font-awesome'
